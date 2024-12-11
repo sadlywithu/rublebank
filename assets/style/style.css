@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #424242;
+ 
+}
+
+li, ul {
+    line-height: 20px;
+}
+
+ul {
+    padding: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+header {
+    border-bottom: 1px solid #DEDEDE;
+    padding: 10px 0px;
+}
+.header__container {
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo {
+    display: flex;
+    justify-content: space-between;
+
+}
+.header-logo ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo li + li{
+    margin-left: 24px;
+}
+.header-logo i {
+    margin-right: 4px;
+}
+
+.head-logo {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header-logo-name {
+    color: #3A95FF;
+    margin-right: 40px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.blue-link {
+    color:#3A95FF ;
+}
+
+.header-line {
+    height: 1px;
+    color: #424242;
+}
+
+.links-nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-link {
+    border-bottom: 1px solid #DEDEDE;
+    padding: 10px 0px
+}
+
+.head-banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-button p{
+    font-size: 52px;
+    font-weight: 600;
+    color: black;
+}
+.text-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+}
+
+.blue-button {
+    width: 200px;
+    height: 55px;
+    padding: 17px 26px;
+    color:  white;
+    background-color: #3A95FF;
+    border-radius: 3px;
+}
+
+.white-button {
+    width: 200px;
+    height: 55px;
+    padding: 17px 26px;
+    border: #3A95FF 1px solid;
+    color:  #3A95FF;
+    background-color: inherit;
+    border-radius: 3px; 
+}
+
+.button-banner a + a {
+    margin-left: 40px;
+}
+
+.button-banner {
+    margin-top: 60px;
+    margin-bottom: 83px;
+}
+
+.section-banner {
+    box-shadow: 0px 18px 12px -12px rgba(186, 184, 184, 0.2);
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 60px;
+}
+    
+.div1 { 
+    grid-area: 1 / 1 / 2 / 2; 
+    background-color: #EFF2F5;
+    border-radius: 8px; 
+    display: flex;
+}
+.div2 { 
+    grid-area: 1 / 2 / 2 / 3; 
+    background-color: #EFF2F5;
+    border-radius: 8px;
+    display: flex; 
+}
+
+.div2 img {
+    border-radius: 8px;
+}
+.div3 { 
+    grid-area: 2 / 2 / 3 / 3;
+    background-color: #EFF2F5;
+    border-radius: 8px; 
+    display: flex;
+}
+
+.div3 img {
+    border-radius: 8px;
+}
+.div4 { 
+    grid-area: 2 / 1 / 3 / 2; 
+    background-color: #EFF2F5;
+    border-radius: 8px; 
+    display: flex;
+}
+
+.card-head {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 35px;
+    color: black;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+    line-height: 24px;
+}
+
+.main-card-text {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.zagolovok-section-card {
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+    margin: 0;
+}
+
+.descriptor {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+
+.section-card-grid {
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+
+.secton-credit-card {
+    background-color: #EFF2F5;
+    padding: 140px 0;
+}
+.parent-card {
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+
+}
+    
+.main-card {
+    grid-area: 1 / 1 / 3 / 2; 
+    background-color: #E0E5EA;
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    padding-left: 80px;
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: 0px 18px 12px -12px rgba(186, 184, 184, 0.2);
+}
+
+.head-img-main-card {
+    display: flex;
+    
+}
+
+.head-main {
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+}
+
+.information-main-card {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.credit-card { 
+    grid-area: 1 / 2 / 2 / 3; 
+    background-color: white;
+    box-shadow: 0px 18px 12px -12px rgba(186, 184, 184, 0.2);
+}
+.debet-card { 
+    grid-area: 2 / 2 / 3 / 3; 
+    background-color: white;
+    box-shadow: 0px 18px 12px -12px rgba(186, 184, 184, 0.2);
+}
+
+.head-information {
+    font-size: 30px;
+    color: black;
+}
+
+.line-card {
+    height: 2px;
+    background-color: #3A95FF;
+    width: 100%;
+}
+
+.li-information {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    
+}
+.main-information {
+    font-size: 18px;
+    text-align: center;
+}
+
+.name-card {
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.debet-card, .credit-card {
+    padding: 34px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    color: black;
+}
+
+.img-card {
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+}
+
+.tutor-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.section-how-get-card {
+    padding-bottom: 110px;
+    padding-top: 70px;
+}
+
+
+.vector {
+    width: 20px;
+    height: 20px;
+}
+
+.icon-text p {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+
+.icon-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    background-color: #EFF2F5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    display: flex;
+    padding-top: 40px;
+}
+
+.column {
+    width: 40%;
+}
+
+.footer-head {
+    font-weight: 600;
+
+}
